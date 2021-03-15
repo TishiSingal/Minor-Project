@@ -1,43 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MINOR PROJECT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"> <a href="index.html"><img src="logo.jpg" alt="Not available" width="200px" height="70px"></a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li>
+          <label for="btn-1" class="show">Schools +</label>
+          <a href="#">Schools</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="#">Chemical</a></li>
+            <li><a href="#">Civil</a></li>
+      
+            <li>
+              <label for="btn-3" class="show">Computer +</label>
+              <a href="#">Computer</a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="#">CSE</a></li>
+                <li><a href="#">IT</a></li>
+                <li><a href="#">CSSE</a></li>
+                <li><a href="#">CSCE</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Electrical</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Mechanical</a></li>
+            <li><a href="#">Biotechnology</a></li>
+            <!-- <li><a href="#">Computer Applications</a></li> -->
 
-    <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Minor Project</title>
-</head>
-<body>
-    <nav class="nav">
-        <div class="nav-menu">
-            <div class="nav-project">
-                <a href="index.html">KIIT University</a>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-link">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Schools</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Societies and Events</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Contact Us</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-2" class="show">Societies +</label>
+          <a href="#">Societies</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="#">Khwaab</a></li>
+            <li><a href="#">Paankh</a></li>
+            <li><a href="#">Korus</a></li>
+            <li><a href="#">Kalakar</a></li>
+            <li>
+              <label for="btn-3" class="show">More +</label>
+              <a href="#">More <span class="fa fa-plus"></span></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="#">Submenu-1</a></li>
+                <li><a href="#">Submenu-2</a></li>
+                <li><a href="#">Submenu-3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-2" class="show">Events +</label>
+          <a href="#">Events</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="#">KIIT MUN</a></li>
+            <li><a href="#">KIIT FEST</a></li>
+            <li><a href="#">TEDx</a></li>
+            <li><a href="#">Kritarth</a></li>
+            <li><a href="#">E-Summit</a></li>
+            
+          </ul>
+        </li>
+        <li><a href="#">Nearby</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
     </nav>
+    <div class="content">
+
+    </div>
+
+    <img src="./dark.jpg" alt="Not available" width="100%" >
+
+    <script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+
     
-</body>
+
+
+  </body>
 </html>
